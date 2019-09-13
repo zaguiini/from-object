@@ -1,6 +1,6 @@
 # from-object
 
-Convert an object of objects into an array of objects.
+Convert an `object of objects` into an `array of objects`.
 Order is not guaranteed.
 
 ## Usage
@@ -19,7 +19,7 @@ const example = {
   },
 }
 
-fromObject(example, 'id') // id is optional.
+fromObject(example, 'id') // id is optional: set an identifier, could be anything
 ```
 
 Should output:
