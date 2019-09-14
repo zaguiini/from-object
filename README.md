@@ -29,7 +29,7 @@ fromObject(example, 'id') // id is optional: set an identifier, could be anythin
 Should output:
 
 ```js
-;[
+[
   {
     id: 'jim', // this will not be here if you don't pass the second argument
     name: 'Jim',
